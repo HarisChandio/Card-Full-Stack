@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    max-width: 400px; /* Set a specific maximum width for the card container */
+    justify-content: center;
+}
+
+.name {
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 4px;
+}
+.description{
+    margin:0;
+    
+}
+.interests-container {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.interest{
+    margin-bottom: 6px;
+}
+
+.social-links-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.social-links-container a {
+    text-decoration: none;
+    color: blue;
+}
+
+.social-links-container a:hover {
+    text-decoration: underline;
+}
+
+.link-button {
+    margin: 5px;
+    padding: 5px;
+    background-color:skyblue;
+}

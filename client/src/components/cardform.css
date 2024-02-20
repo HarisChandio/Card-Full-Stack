@@ -1,0 +1,21 @@
+.form{
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    max-width: 200px; /* Set a specific maximum width for the card container */
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+.submit{
+
+}
